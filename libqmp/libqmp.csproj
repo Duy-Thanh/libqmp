@@ -12,6 +12,9 @@
     <Company>CyberDay Studios</Company>
     <Description>libqmp</Description>
     <Copyright>Copyright (C) CyberDay Studios. All right reserved</Copyright>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<PublishAot>true</PublishAot>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

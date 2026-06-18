@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.ACPISlotType
+  commentId: T:libqmp.Enums.ACPISlotType
+  id: ACPISlotType
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.ACPISlotType.CPU
+  - libqmp.Enums.ACPISlotType.DIMM
+  langs:
+  - csharp
+  - vb
+  name: ACPISlotType
+  nameWithType: ACPISlotType
+  fullName: libqmp.Enums.ACPISlotType
+  type: Enum
+  source:
+    id: ACPISlotType
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ACPISlotType.cs
+    startLine: 7
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: 'Enum: ACPISlotType'
+  example: []
+  syntax:
+    content: 'public enum ACPISlotType : byte'
+    content.vb: Public Enum ACPISlotType As Byte
+- uid: libqmp.Enums.ACPISlotType.DIMM
+  commentId: F:libqmp.Enums.ACPISlotType.DIMM
+  id: DIMM
+  parent: libqmp.Enums.ACPISlotType
+  langs:
+  - csharp
+  - vb
+  name: DIMM
+  nameWithType: ACPISlotType.DIMM
+  fullName: libqmp.Enums.ACPISlotType.DIMM
+  type: Field
+  source:
+    id: DIMM
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ACPISlotType.cs
+    startLine: 12
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: memory slot
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("DIMM")]
+
+      DIMM = 0
+    return:
+      type: libqmp.Enums.ACPISlotType
+    content.vb: >-
+      <JsonPropertyName("DIMM")>
+
+      DIMM = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: DIMM
+- uid: libqmp.Enums.ACPISlotType.CPU
+  commentId: F:libqmp.Enums.ACPISlotType.CPU
+  id: CPU
+  parent: libqmp.Enums.ACPISlotType
+  langs:
+  - csharp
+  - vb
+  name: CPU
+  nameWithType: ACPISlotType.CPU
+  fullName: libqmp.Enums.ACPISlotType.CPU
+  type: Field
+  source:
+    id: CPU
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ACPISlotType.cs
+    startLine: 18
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: logical CPU slot (since 2.7)
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("CPU")]
+
+      CPU = 1
+    return:
+      type: libqmp.Enums.ACPISlotType
+    content.vb: >-
+      <JsonPropertyName("CPU")>
+
+      CPU = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: CPU
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.ACPISlotType
+  commentId: T:libqmp.Enums.ACPISlotType
+  parent: libqmp.Enums
+  href: libqmp.Enums.ACPISlotType.html
+  name: ACPISlotType
+  nameWithType: ACPISlotType
+  fullName: libqmp.Enums.ACPISlotType

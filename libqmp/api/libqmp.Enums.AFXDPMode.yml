@@ -1,0 +1,137 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.AFXDPMode
+  commentId: T:libqmp.Enums.AFXDPMode
+  id: AFXDPMode
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.AFXDPMode.Native
+  - libqmp.Enums.AFXDPMode.Skb
+  langs:
+  - csharp
+  - vb
+  name: AFXDPMode
+  nameWithType: AFXDPMode
+  fullName: libqmp.Enums.AFXDPMode
+  type: Enum
+  source:
+    id: AFXDPMode
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AFXDPMode.cs
+    startLine: 14
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    AFXDPMode (Since: 8.2)
+
+    Availability: CONFIG_AF_XDP
+
+    Attach mode for a default XDP program
+  example: []
+  syntax:
+    content: 'public enum AFXDPMode : byte'
+    content.vb: Public Enum AFXDPMode As Byte
+- uid: libqmp.Enums.AFXDPMode.Skb
+  commentId: F:libqmp.Enums.AFXDPMode.Skb
+  id: Skb
+  parent: libqmp.Enums.AFXDPMode
+  langs:
+  - csharp
+  - vb
+  name: Skb
+  nameWithType: AFXDPMode.Skb
+  fullName: libqmp.Enums.AFXDPMode.Skb
+  type: Field
+  source:
+    id: Skb
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AFXDPMode.cs
+    startLine: 19
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: generic mode, no driver support necessary
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("skb")]
+
+      Skb = 0
+    return:
+      type: libqmp.Enums.AFXDPMode
+    content.vb: >-
+      <JsonPropertyName("skb")>
+
+      Skb = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: skb
+- uid: libqmp.Enums.AFXDPMode.Native
+  commentId: F:libqmp.Enums.AFXDPMode.Native
+  id: Native
+  parent: libqmp.Enums.AFXDPMode
+  langs:
+  - csharp
+  - vb
+  name: Native
+  nameWithType: AFXDPMode.Native
+  fullName: libqmp.Enums.AFXDPMode.Native
+  type: Field
+  source:
+    id: Native
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AFXDPMode.cs
+    startLine: 25
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: DRV mode, program is attached to a driver, packets are passed to the socket without allocation of skb
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("native")]
+
+      Native = 1
+    return:
+      type: libqmp.Enums.AFXDPMode
+    content.vb: >-
+      <JsonPropertyName("native")>
+
+      Native = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: native
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.AFXDPMode
+  commentId: T:libqmp.Enums.AFXDPMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.AFXDPMode.html
+  name: AFXDPMode
+  nameWithType: AFXDPMode
+  fullName: libqmp.Enums.AFXDPMode

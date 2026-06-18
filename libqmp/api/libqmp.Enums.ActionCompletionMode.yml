@@ -1,0 +1,141 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.ActionCompletionMode
+  commentId: T:libqmp.Enums.ActionCompletionMode
+  id: ActionCompletionMode
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.ActionCompletionMode.Grouped
+  - libqmp.Enums.ActionCompletionMode.Individual
+  langs:
+  - csharp
+  - vb
+  name: ActionCompletionMode
+  nameWithType: ActionCompletionMode
+  fullName: libqmp.Enums.ActionCompletionMode
+  type: Enum
+  source:
+    id: ActionCompletionMode
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ActionCompletionMode.cs
+    startLine: 13
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    ActionCompletionMode (Since: 2.5)
+
+    An enumeration of transactional completion modes.
+  example: []
+  syntax:
+    content: 'public enum ActionCompletionMode : byte'
+    content.vb: Public Enum ActionCompletionMode As Byte
+- uid: libqmp.Enums.ActionCompletionMode.Individual
+  commentId: F:libqmp.Enums.ActionCompletionMode.Individual
+  id: Individual
+  parent: libqmp.Enums.ActionCompletionMode
+  langs:
+  - csharp
+  - vb
+  name: Individual
+  nameWithType: ActionCompletionMode.Individual
+  fullName: libqmp.Enums.ActionCompletionMode.Individual
+  type: Field
+  source:
+    id: Individual
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ActionCompletionMode.cs
+    startLine: 19
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    Do not attempt to cancel any other Actions if any Actions fail after the Transaction request succeeds. 
+
+    All Actions that can complete successfully will do so without waiting on others. This is the default
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("individual")]
+
+      Individual = 0
+    return:
+      type: libqmp.Enums.ActionCompletionMode
+    content.vb: >-
+      <JsonPropertyName("individual")>
+
+      Individual = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: individual
+- uid: libqmp.Enums.ActionCompletionMode.Grouped
+  commentId: F:libqmp.Enums.ActionCompletionMode.Grouped
+  id: Grouped
+  parent: libqmp.Enums.ActionCompletionMode
+  langs:
+  - csharp
+  - vb
+  name: Grouped
+  nameWithType: ActionCompletionMode.Grouped
+  fullName: libqmp.Enums.ActionCompletionMode.Grouped
+  type: Field
+  source:
+    id: Grouped
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\ActionCompletionMode.cs
+    startLine: 26
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    If any Action fails after the Transaction succeeds, cancel all Actions. Actions do not complete until
+
+    all Actions are ready to complete. May be rejected by Actions that do not support this completion mode.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("grouped")]
+
+      Grouped = 1
+    return:
+      type: libqmp.Enums.ActionCompletionMode
+    content.vb: >-
+      <JsonPropertyName("grouped")>
+
+      Grouped = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: grouped
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.ActionCompletionMode
+  commentId: T:libqmp.Enums.ActionCompletionMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.ActionCompletionMode.html
+  name: ActionCompletionMode
+  nameWithType: ActionCompletionMode
+  fullName: libqmp.Enums.ActionCompletionMode

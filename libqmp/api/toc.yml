@@ -1,0 +1,37 @@
+### YamlMime:TableOfContent
+items:
+- uid: libqmp.Enums
+  name: libqmp.Enums
+  type: Namespace
+  items:
+  - uid: libqmp.Enums.ACPISlotType
+    name: ACPISlotType
+    type: Enum
+  - uid: libqmp.Enums.AFXDPMode
+    name: AFXDPMode
+    type: Enum
+  - uid: libqmp.Enums.Accelerator
+    name: Accelerator
+    type: Enum
+  - uid: libqmp.Enums.ActionCompletionMode
+    name: ActionCompletionMode
+    type: Enum
+  - uid: libqmp.Enums.AudioFormat
+    name: AudioFormat
+    type: Enum
+  - uid: libqmp.Enums.AudiodevDriver
+    name: AudiodevDriver
+    type: Enum
+  - uid: libqmp.Enums.BiosAtaTranslation
+    name: BiosAtaTranslation
+    type: Enum
+  - uid: libqmp.Enums.BitmapSyncMode
+    name: BitmapSyncMode
+    type: Enum
+  - uid: libqmp.Enums.BlkdebugIOType
+    name: BlkdebugIOType
+    type: Enum
+  - uid: libqmp.Enums.BlockDeviceIoStatus
+    name: BlockDeviceIoStatus
+    type: Enum
+memberLayout: SamePage

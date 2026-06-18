@@ -1,0 +1,118 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  id: libqmp.Enums
+  children:
+  - libqmp.Enums.ACPISlotType
+  - libqmp.Enums.AFXDPMode
+  - libqmp.Enums.Accelerator
+  - libqmp.Enums.ActionCompletionMode
+  - libqmp.Enums.AudioFormat
+  - libqmp.Enums.AudiodevDriver
+  - libqmp.Enums.BiosAtaTranslation
+  - libqmp.Enums.BitmapSyncMode
+  - libqmp.Enums.BlkdebugIOType
+  - libqmp.Enums.BlockDeviceIoStatus
+  langs:
+  - csharp
+  - vb
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  type: Namespace
+  assemblies:
+  - libqmp
+references:
+- uid: libqmp.Enums.Accelerator
+  commentId: T:libqmp.Enums.Accelerator
+  parent: libqmp.Enums
+  href: libqmp.Enums.Accelerator.html
+  name: Accelerator
+  nameWithType: Accelerator
+  fullName: libqmp.Enums.Accelerator
+- uid: libqmp.Enums.ACPISlotType
+  commentId: T:libqmp.Enums.ACPISlotType
+  parent: libqmp.Enums
+  href: libqmp.Enums.ACPISlotType.html
+  name: ACPISlotType
+  nameWithType: ACPISlotType
+  fullName: libqmp.Enums.ACPISlotType
+- uid: libqmp.Enums.ActionCompletionMode
+  commentId: T:libqmp.Enums.ActionCompletionMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.ActionCompletionMode.html
+  name: ActionCompletionMode
+  nameWithType: ActionCompletionMode
+  fullName: libqmp.Enums.ActionCompletionMode
+- uid: libqmp.Enums.AFXDPMode
+  commentId: T:libqmp.Enums.AFXDPMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.AFXDPMode.html
+  name: AFXDPMode
+  nameWithType: AFXDPMode
+  fullName: libqmp.Enums.AFXDPMode
+- uid: libqmp.Enums.AudiodevDriver
+  commentId: T:libqmp.Enums.AudiodevDriver
+  parent: libqmp.Enums
+  href: libqmp.Enums.AudiodevDriver.html
+  name: AudiodevDriver
+  nameWithType: AudiodevDriver
+  fullName: libqmp.Enums.AudiodevDriver
+- uid: libqmp.Enums.AudioFormat
+  commentId: T:libqmp.Enums.AudioFormat
+  parent: libqmp.Enums
+  href: libqmp.Enums.AudioFormat.html
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: libqmp.Enums.AudioFormat
+- uid: libqmp.Enums.BiosAtaTranslation
+  commentId: T:libqmp.Enums.BiosAtaTranslation
+  parent: libqmp.Enums
+  href: libqmp.Enums.BiosAtaTranslation.html
+  name: BiosAtaTranslation
+  nameWithType: BiosAtaTranslation
+  fullName: libqmp.Enums.BiosAtaTranslation
+- uid: libqmp.Enums.BitmapSyncMode
+  commentId: T:libqmp.Enums.BitmapSyncMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.BitmapSyncMode.html
+  name: BitmapSyncMode
+  nameWithType: BitmapSyncMode
+  fullName: libqmp.Enums.BitmapSyncMode
+- uid: libqmp.Enums.BlkdebugIOType
+  commentId: T:libqmp.Enums.BlkdebugIOType
+  parent: libqmp.Enums
+  href: libqmp.Enums.BlkdebugIOType.html
+  name: BlkdebugIOType
+  nameWithType: BlkdebugIOType
+  fullName: libqmp.Enums.BlkdebugIOType
+- uid: libqmp.Enums.BlockDeviceIoStatus
+  commentId: T:libqmp.Enums.BlockDeviceIoStatus
+  parent: libqmp.Enums
+  href: libqmp.Enums.BlockDeviceIoStatus.html
+  name: BlockDeviceIoStatus
+  nameWithType: BlockDeviceIoStatus
+  fullName: libqmp.Enums.BlockDeviceIoStatus
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html

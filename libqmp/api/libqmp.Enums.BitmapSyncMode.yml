@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.BitmapSyncMode
+  commentId: T:libqmp.Enums.BitmapSyncMode
+  id: BitmapSyncMode
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.BitmapSyncMode.Always
+  - libqmp.Enums.BitmapSyncMode.Never
+  - libqmp.Enums.BitmapSyncMode.OnSuccess
+  langs:
+  - csharp
+  - vb
+  name: BitmapSyncMode
+  nameWithType: BitmapSyncMode
+  fullName: libqmp.Enums.BitmapSyncMode
+  type: Enum
+  source:
+    id: BitmapSyncMode
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BitmapSyncMode.cs
+    startLine: 14
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    BitmapSyncMode (Since: 4.2)
+
+    An enumeration of possible behaviors for the synchronization 
+
+    of a bitmap when used for data copy operations.
+  example: []
+  syntax:
+    content: 'public enum BitmapSyncMode : byte'
+    content.vb: Public Enum BitmapSyncMode As Byte
+- uid: libqmp.Enums.BitmapSyncMode.OnSuccess
+  commentId: F:libqmp.Enums.BitmapSyncMode.OnSuccess
+  id: OnSuccess
+  parent: libqmp.Enums.BitmapSyncMode
+  langs:
+  - csharp
+  - vb
+  name: OnSuccess
+  nameWithType: BitmapSyncMode.OnSuccess
+  fullName: libqmp.Enums.BitmapSyncMode.OnSuccess
+  type: Field
+  source:
+    id: OnSuccess
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BitmapSyncMode.cs
+    startLine: 20
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    The bitmap is only synced when the operation is successful. 
+
+    This is the behavior always used for incremental backups
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("on-success")]
+
+      OnSuccess = 0
+    return:
+      type: libqmp.Enums.BitmapSyncMode
+    content.vb: >-
+      <JsonPropertyName("on-success")>
+
+      OnSuccess = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: on-success
+- uid: libqmp.Enums.BitmapSyncMode.Never
+  commentId: F:libqmp.Enums.BitmapSyncMode.Never
+  id: Never
+  parent: libqmp.Enums.BitmapSyncMode
+  langs:
+  - csharp
+  - vb
+  name: Never
+  nameWithType: BitmapSyncMode.Never
+  fullName: libqmp.Enums.BitmapSyncMode.Never
+  type: Field
+  source:
+    id: Never
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BitmapSyncMode.cs
+    startLine: 27
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    The bitmap is never synchronized with the operation, 
+
+    and is treated solely as a read-only manifest of blocks to copy
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("never")]
+
+      Never = 1
+    return:
+      type: libqmp.Enums.BitmapSyncMode
+    content.vb: >-
+      <JsonPropertyName("never")>
+
+      Never = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: never
+- uid: libqmp.Enums.BitmapSyncMode.Always
+  commentId: F:libqmp.Enums.BitmapSyncMode.Always
+  id: Always
+  parent: libqmp.Enums.BitmapSyncMode
+  langs:
+  - csharp
+  - vb
+  name: Always
+  nameWithType: BitmapSyncMode.Always
+  fullName: libqmp.Enums.BitmapSyncMode.Always
+  type: Field
+  source:
+    id: Always
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BitmapSyncMode.cs
+    startLine: 34
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    The bitmap is always synchronized with the operation, regardless 
+
+    of whether or not the operation was successful
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("always")]
+
+      Always = 2
+    return:
+      type: libqmp.Enums.BitmapSyncMode
+    content.vb: >-
+      <JsonPropertyName("always")>
+
+      Always = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: always
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.BitmapSyncMode
+  commentId: T:libqmp.Enums.BitmapSyncMode
+  parent: libqmp.Enums
+  href: libqmp.Enums.BitmapSyncMode.html
+  name: BitmapSyncMode
+  nameWithType: BitmapSyncMode
+  fullName: libqmp.Enums.BitmapSyncMode

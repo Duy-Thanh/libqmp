@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.AudioFormat
+  commentId: T:libqmp.Enums.AudioFormat
+  id: AudioFormat
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.AudioFormat.F32
+  - libqmp.Enums.AudioFormat.S16
+  - libqmp.Enums.AudioFormat.S32
+  - libqmp.Enums.AudioFormat.S8
+  - libqmp.Enums.AudioFormat.U16
+  - libqmp.Enums.AudioFormat.U32
+  - libqmp.Enums.AudioFormat.U8
+  langs:
+  - csharp
+  - vb
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: libqmp.Enums.AudioFormat
+  type: Enum
+  source:
+    id: AudioFormat
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 13
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    AudioFormat (Since: 4.0)
+
+    An enumeration of possible audio formats.
+  example: []
+  syntax:
+    content: 'public enum AudioFormat : byte'
+    content.vb: Public Enum AudioFormat As Byte
+- uid: libqmp.Enums.AudioFormat.U8
+  commentId: F:libqmp.Enums.AudioFormat.U8
+  id: U8
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: U8
+  nameWithType: AudioFormat.U8
+  fullName: libqmp.Enums.AudioFormat.U8
+  type: Field
+  source:
+    id: U8
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 18
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: unsigned 8 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("u8")]
+
+      U8 = 0
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("u8")>
+
+      U8 = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: u8
+- uid: libqmp.Enums.AudioFormat.S8
+  commentId: F:libqmp.Enums.AudioFormat.S8
+  id: S8
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: S8
+  nameWithType: AudioFormat.S8
+  fullName: libqmp.Enums.AudioFormat.S8
+  type: Field
+  source:
+    id: S8
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 24
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: signed 8 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("s8")]
+
+      S8 = 1
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("s8")>
+
+      S8 = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: s8
+- uid: libqmp.Enums.AudioFormat.U16
+  commentId: F:libqmp.Enums.AudioFormat.U16
+  id: U16
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: U16
+  nameWithType: AudioFormat.U16
+  fullName: libqmp.Enums.AudioFormat.U16
+  type: Field
+  source:
+    id: U16
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 30
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: unsigned 16 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("u16")]
+
+      U16 = 2
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("u16")>
+
+      U16 = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: u16
+- uid: libqmp.Enums.AudioFormat.S16
+  commentId: F:libqmp.Enums.AudioFormat.S16
+  id: S16
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: S16
+  nameWithType: AudioFormat.S16
+  fullName: libqmp.Enums.AudioFormat.S16
+  type: Field
+  source:
+    id: S16
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 36
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: signed 16 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("s16")]
+
+      S16 = 3
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("s16")>
+
+      S16 = 3
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: s16
+- uid: libqmp.Enums.AudioFormat.U32
+  commentId: F:libqmp.Enums.AudioFormat.U32
+  id: U32
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: U32
+  nameWithType: AudioFormat.U32
+  fullName: libqmp.Enums.AudioFormat.U32
+  type: Field
+  source:
+    id: U32
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 42
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: unsigned 32 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("u32")]
+
+      U32 = 4
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("u32")>
+
+      U32 = 4
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: u32
+- uid: libqmp.Enums.AudioFormat.S32
+  commentId: F:libqmp.Enums.AudioFormat.S32
+  id: S32
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: S32
+  nameWithType: AudioFormat.S32
+  fullName: libqmp.Enums.AudioFormat.S32
+  type: Field
+  source:
+    id: S32
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 48
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: signed 32 bit integer
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("s32")]
+
+      S32 = 5
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("s32")>
+
+      S32 = 5
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: s32
+- uid: libqmp.Enums.AudioFormat.F32
+  commentId: F:libqmp.Enums.AudioFormat.F32
+  id: F32
+  parent: libqmp.Enums.AudioFormat
+  langs:
+  - csharp
+  - vb
+  name: F32
+  nameWithType: AudioFormat.F32
+  fullName: libqmp.Enums.AudioFormat.F32
+  type: Field
+  source:
+    id: F32
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudioFormat.cs
+    startLine: 54
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: single precision floating-point (since 5.0)
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("f32")]
+
+      F32 = 6
+    return:
+      type: libqmp.Enums.AudioFormat
+    content.vb: >-
+      <JsonPropertyName("f32")>
+
+      F32 = 6
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: f32
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.AudioFormat
+  commentId: T:libqmp.Enums.AudioFormat
+  parent: libqmp.Enums
+  href: libqmp.Enums.AudioFormat.html
+  name: AudioFormat
+  nameWithType: AudioFormat
+  fullName: libqmp.Enums.AudioFormat

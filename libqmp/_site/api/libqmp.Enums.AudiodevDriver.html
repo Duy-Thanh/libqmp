@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>Enum AudiodevDriver | libqmp </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="Enum AudiodevDriver | libqmp ">
+      
+      <meta name="description" content="AudiodevDriver (Since: 4.0) An enumeration of possible audio backend drivers.">
+      <link rel="icon" href="../favicon.ico">
+      <link rel="stylesheet" href="../public/docfx.min.css">
+      <link rel="stylesheet" href="../public/main.css">
+      <meta name="docfx:navrel" content="../toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="../">
+      
+      
+      
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./../public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="ManagedReference">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../index.html">
+            <img id="logo" class="svg" src="../logo.svg" alt="libqmp">
+            libqmp
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="libqmp.Enums.AudiodevDriver">
+
+
+
+
+  <h1 id="libqmp_Enums_AudiodevDriver" data-uid="libqmp.Enums.AudiodevDriver" class="text-break">
+Enum AudiodevDriver  
+  </h1>
+
+  <div class="facts text-secondary">
+    <dl><dt>Namespace</dt><dd><a class="xref" href="libqmp.html">libqmp</a>.<a class="xref" href="libqmp.Enums.html">Enums</a></dd></dl>
+  <dl><dt>Assembly</dt><dd>libqmp.dll</dd></dl>
+  </div>
+
+  <div class="markdown summary"><p>AudiodevDriver (Since: 4.0)
+An enumeration of possible audio backend drivers.</p>
+</div>
+  <div class="markdown conceptual"></div>
+
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public enum AudiodevDriver : byte</code></pre>
+  </div>
+
+
+
+
+
+
+
+
+
+  <h2 id="fields">Fields
+</h2>
+  <dl class="parameters">
+    <dt id="libqmp_Enums_AudiodevDriver_Alsa"><code>[JsonPropertyName(&quot;alsa&quot;)]
+Alsa = 2</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Coreaudio"><code>[JsonPropertyName(&quot;coreaudio&quot;)]
+Coreaudio = 3</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Dbus"><code>[JsonPropertyName(&quot;dbus&quot;)]
+Dbus = 4</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Dsound"><code>[JsonPropertyName(&quot;dsound&quot;)]
+Dsound = 5</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Jack"><code>[JsonPropertyName(&quot;jack&quot;)]
+Jack = 0</code></dt>
+  
+  <dd><p>JACK audio backend (since 5.1)</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_None"><code>[JsonPropertyName(&quot;none&quot;)]
+None = 1</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Oss"><code>[JsonPropertyName(&quot;oss&quot;)]
+Oss = 6</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Pa"><code>[JsonPropertyName(&quot;pa&quot;)]
+Pa = 7</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Pipewire"><code>[JsonPropertyName(&quot;pipewire&quot;)]
+Pipewire = 8</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Sdl"><code>[JsonPropertyName(&quot;sdl&quot;)]
+Sdl = 9</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Sndio0"><code>[JsonPropertyName(&quot;sndio&quot;)]
+Sndio0 = 10</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Spice1"><code>[JsonPropertyName(&quot;spice&quot;)]
+Spice1 = 11</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+    <dt id="libqmp_Enums_AudiodevDriver_Wav2"><code>[JsonPropertyName(&quot;wav&quot;)]
+Wav2 = 12</code></dt>
+  
+  <dd><p>Not documented</p>
+</dd>
+  </dl>
+
+
+
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

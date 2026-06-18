@@ -1,0 +1,173 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.BlockDeviceIoStatus
+  commentId: T:libqmp.Enums.BlockDeviceIoStatus
+  id: BlockDeviceIoStatus
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.BlockDeviceIoStatus.Failed
+  - libqmp.Enums.BlockDeviceIoStatus.Nospace
+  - libqmp.Enums.BlockDeviceIoStatus.Ok
+  langs:
+  - csharp
+  - vb
+  name: BlockDeviceIoStatus
+  nameWithType: BlockDeviceIoStatus
+  fullName: libqmp.Enums.BlockDeviceIoStatus
+  type: Enum
+  source:
+    id: BlockDeviceIoStatus
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BlockDeviceIoStatus.cs
+    startLine: 13
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    BlockDeviceIoStatus (Since: 1.0)
+
+    An enumeration of block device I/O status.
+  example: []
+  syntax:
+    content: 'public enum BlockDeviceIoStatus : byte'
+    content.vb: Public Enum BlockDeviceIoStatus As Byte
+- uid: libqmp.Enums.BlockDeviceIoStatus.Ok
+  commentId: F:libqmp.Enums.BlockDeviceIoStatus.Ok
+  id: Ok
+  parent: libqmp.Enums.BlockDeviceIoStatus
+  langs:
+  - csharp
+  - vb
+  name: Ok
+  nameWithType: BlockDeviceIoStatus.Ok
+  fullName: libqmp.Enums.BlockDeviceIoStatus.Ok
+  type: Field
+  source:
+    id: Ok
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BlockDeviceIoStatus.cs
+    startLine: 18
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: The last I/O operation has succeeded
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("ok")]
+
+      Ok = 0
+    return:
+      type: libqmp.Enums.BlockDeviceIoStatus
+    content.vb: >-
+      <JsonPropertyName("ok")>
+
+      Ok = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: ok
+- uid: libqmp.Enums.BlockDeviceIoStatus.Failed
+  commentId: F:libqmp.Enums.BlockDeviceIoStatus.Failed
+  id: Failed
+  parent: libqmp.Enums.BlockDeviceIoStatus
+  langs:
+  - csharp
+  - vb
+  name: Failed
+  nameWithType: BlockDeviceIoStatus.Failed
+  fullName: libqmp.Enums.BlockDeviceIoStatus.Failed
+  type: Field
+  source:
+    id: Failed
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BlockDeviceIoStatus.cs
+    startLine: 24
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: The last I/O operation has failed
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("failed")]
+
+      Failed = 1
+    return:
+      type: libqmp.Enums.BlockDeviceIoStatus
+    content.vb: >-
+      <JsonPropertyName("failed")>
+
+      Failed = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: failed
+- uid: libqmp.Enums.BlockDeviceIoStatus.Nospace
+  commentId: F:libqmp.Enums.BlockDeviceIoStatus.Nospace
+  id: Nospace
+  parent: libqmp.Enums.BlockDeviceIoStatus
+  langs:
+  - csharp
+  - vb
+  name: Nospace
+  nameWithType: BlockDeviceIoStatus.Nospace
+  fullName: libqmp.Enums.BlockDeviceIoStatus.Nospace
+  type: Field
+  source:
+    id: Nospace
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BlockDeviceIoStatus.cs
+    startLine: 30
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: The last I/O operation has failed due to a no-space condition
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("nospace")]
+
+      Nospace = 2
+    return:
+      type: libqmp.Enums.BlockDeviceIoStatus
+    content.vb: >-
+      <JsonPropertyName("nospace")>
+
+      Nospace = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nospace
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.BlockDeviceIoStatus
+  commentId: T:libqmp.Enums.BlockDeviceIoStatus
+  parent: libqmp.Enums
+  href: libqmp.Enums.BlockDeviceIoStatus.html
+  name: BlockDeviceIoStatus
+  nameWithType: BlockDeviceIoStatus
+  fullName: libqmp.Enums.BlockDeviceIoStatus

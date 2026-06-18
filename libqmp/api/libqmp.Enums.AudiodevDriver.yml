@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.AudiodevDriver
+  commentId: T:libqmp.Enums.AudiodevDriver
+  id: AudiodevDriver
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.AudiodevDriver.Alsa
+  - libqmp.Enums.AudiodevDriver.Coreaudio
+  - libqmp.Enums.AudiodevDriver.Dbus
+  - libqmp.Enums.AudiodevDriver.Dsound
+  - libqmp.Enums.AudiodevDriver.Jack
+  - libqmp.Enums.AudiodevDriver.None
+  - libqmp.Enums.AudiodevDriver.Oss
+  - libqmp.Enums.AudiodevDriver.Pa
+  - libqmp.Enums.AudiodevDriver.Pipewire
+  - libqmp.Enums.AudiodevDriver.Sdl
+  - libqmp.Enums.AudiodevDriver.Sndio0
+  - libqmp.Enums.AudiodevDriver.Spice1
+  - libqmp.Enums.AudiodevDriver.Wav2
+  langs:
+  - csharp
+  - vb
+  name: AudiodevDriver
+  nameWithType: AudiodevDriver
+  fullName: libqmp.Enums.AudiodevDriver
+  type: Enum
+  source:
+    id: AudiodevDriver
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 13
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    AudiodevDriver (Since: 4.0)
+
+    An enumeration of possible audio backend drivers.
+  example: []
+  syntax:
+    content: 'public enum AudiodevDriver : byte'
+    content.vb: Public Enum AudiodevDriver As Byte
+- uid: libqmp.Enums.AudiodevDriver.Jack
+  commentId: F:libqmp.Enums.AudiodevDriver.Jack
+  id: Jack
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Jack
+  nameWithType: AudiodevDriver.Jack
+  fullName: libqmp.Enums.AudiodevDriver.Jack
+  type: Field
+  source:
+    id: Jack
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 18
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: JACK audio backend (since 5.1)
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("jack")]
+
+      Jack = 0
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("jack")>
+
+      Jack = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: jack
+- uid: libqmp.Enums.AudiodevDriver.None
+  commentId: F:libqmp.Enums.AudiodevDriver.None
+  id: None
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AudiodevDriver.None
+  fullName: libqmp.Enums.AudiodevDriver.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 24
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("none")]
+
+      None = 1
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("none")>
+
+      None = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: none
+- uid: libqmp.Enums.AudiodevDriver.Alsa
+  commentId: F:libqmp.Enums.AudiodevDriver.Alsa
+  id: Alsa
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Alsa
+  nameWithType: AudiodevDriver.Alsa
+  fullName: libqmp.Enums.AudiodevDriver.Alsa
+  type: Field
+  source:
+    id: Alsa
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 30
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("alsa")]
+
+      Alsa = 2
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("alsa")>
+
+      Alsa = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: alsa
+- uid: libqmp.Enums.AudiodevDriver.Coreaudio
+  commentId: F:libqmp.Enums.AudiodevDriver.Coreaudio
+  id: Coreaudio
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Coreaudio
+  nameWithType: AudiodevDriver.Coreaudio
+  fullName: libqmp.Enums.AudiodevDriver.Coreaudio
+  type: Field
+  source:
+    id: Coreaudio
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 36
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("coreaudio")]
+
+      Coreaudio = 3
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("coreaudio")>
+
+      Coreaudio = 3
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: coreaudio
+- uid: libqmp.Enums.AudiodevDriver.Dbus
+  commentId: F:libqmp.Enums.AudiodevDriver.Dbus
+  id: Dbus
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Dbus
+  nameWithType: AudiodevDriver.Dbus
+  fullName: libqmp.Enums.AudiodevDriver.Dbus
+  type: Field
+  source:
+    id: Dbus
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 42
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("dbus")]
+
+      Dbus = 4
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("dbus")>
+
+      Dbus = 4
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: dbus
+- uid: libqmp.Enums.AudiodevDriver.Dsound
+  commentId: F:libqmp.Enums.AudiodevDriver.Dsound
+  id: Dsound
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Dsound
+  nameWithType: AudiodevDriver.Dsound
+  fullName: libqmp.Enums.AudiodevDriver.Dsound
+  type: Field
+  source:
+    id: Dsound
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 48
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("dsound")]
+
+      Dsound = 5
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("dsound")>
+
+      Dsound = 5
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: dsound
+- uid: libqmp.Enums.AudiodevDriver.Oss
+  commentId: F:libqmp.Enums.AudiodevDriver.Oss
+  id: Oss
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Oss
+  nameWithType: AudiodevDriver.Oss
+  fullName: libqmp.Enums.AudiodevDriver.Oss
+  type: Field
+  source:
+    id: Oss
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 54
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("oss")]
+
+      Oss = 6
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("oss")>
+
+      Oss = 6
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: oss
+- uid: libqmp.Enums.AudiodevDriver.Pa
+  commentId: F:libqmp.Enums.AudiodevDriver.Pa
+  id: Pa
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Pa
+  nameWithType: AudiodevDriver.Pa
+  fullName: libqmp.Enums.AudiodevDriver.Pa
+  type: Field
+  source:
+    id: Pa
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 60
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("pa")]
+
+      Pa = 7
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("pa")>
+
+      Pa = 7
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: pa
+- uid: libqmp.Enums.AudiodevDriver.Pipewire
+  commentId: F:libqmp.Enums.AudiodevDriver.Pipewire
+  id: Pipewire
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Pipewire
+  nameWithType: AudiodevDriver.Pipewire
+  fullName: libqmp.Enums.AudiodevDriver.Pipewire
+  type: Field
+  source:
+    id: Pipewire
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 66
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("pipewire")]
+
+      Pipewire = 8
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("pipewire")>
+
+      Pipewire = 8
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: pipewire
+- uid: libqmp.Enums.AudiodevDriver.Sdl
+  commentId: F:libqmp.Enums.AudiodevDriver.Sdl
+  id: Sdl
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Sdl
+  nameWithType: AudiodevDriver.Sdl
+  fullName: libqmp.Enums.AudiodevDriver.Sdl
+  type: Field
+  source:
+    id: Sdl
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 72
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("sdl")]
+
+      Sdl = 9
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("sdl")>
+
+      Sdl = 9
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sdl
+- uid: libqmp.Enums.AudiodevDriver.Sndio0
+  commentId: F:libqmp.Enums.AudiodevDriver.Sndio0
+  id: Sndio0
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Sndio0
+  nameWithType: AudiodevDriver.Sndio0
+  fullName: libqmp.Enums.AudiodevDriver.Sndio0
+  type: Field
+  source:
+    id: Sndio0
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 78
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("sndio")]
+
+      Sndio0 = 10
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("sndio")>
+
+      Sndio0 = 10
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: sndio
+- uid: libqmp.Enums.AudiodevDriver.Spice1
+  commentId: F:libqmp.Enums.AudiodevDriver.Spice1
+  id: Spice1
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Spice1
+  nameWithType: AudiodevDriver.Spice1
+  fullName: libqmp.Enums.AudiodevDriver.Spice1
+  type: Field
+  source:
+    id: Spice1
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 84
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("spice")]
+
+      Spice1 = 11
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("spice")>
+
+      Spice1 = 11
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: spice
+- uid: libqmp.Enums.AudiodevDriver.Wav2
+  commentId: F:libqmp.Enums.AudiodevDriver.Wav2
+  id: Wav2
+  parent: libqmp.Enums.AudiodevDriver
+  langs:
+  - csharp
+  - vb
+  name: Wav2
+  nameWithType: AudiodevDriver.Wav2
+  fullName: libqmp.Enums.AudiodevDriver.Wav2
+  type: Field
+  source:
+    id: Wav2
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\AudiodevDriver.cs
+    startLine: 90
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Not documented
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("wav")]
+
+      Wav2 = 12
+    return:
+      type: libqmp.Enums.AudiodevDriver
+    content.vb: >-
+      <JsonPropertyName("wav")>
+
+      Wav2 = 12
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: wav
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.AudiodevDriver
+  commentId: T:libqmp.Enums.AudiodevDriver
+  parent: libqmp.Enums
+  href: libqmp.Enums.AudiodevDriver.html
+  name: AudiodevDriver
+  nameWithType: AudiodevDriver
+  fullName: libqmp.Enums.AudiodevDriver

@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.BiosAtaTranslation
+  commentId: T:libqmp.Enums.BiosAtaTranslation
+  id: BiosAtaTranslation
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.BiosAtaTranslation.Auto
+  - libqmp.Enums.BiosAtaTranslation.Large
+  - libqmp.Enums.BiosAtaTranslation.Lba
+  - libqmp.Enums.BiosAtaTranslation.None
+  - libqmp.Enums.BiosAtaTranslation.Rechs
+  langs:
+  - csharp
+  - vb
+  name: BiosAtaTranslation
+  nameWithType: BiosAtaTranslation
+  fullName: libqmp.Enums.BiosAtaTranslation
+  type: Enum
+  source:
+    id: BiosAtaTranslation
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 15
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    BiosAtaTranslation (Since: 2.0)
+
+    Policy that BIOS should use to interpret cylinder/head/sector addresses. 
+
+    Note that Bochs BIOS and SeaBIOS will not actually translate logical CHS 
+
+    to physical; instead, they will use logical block addressing.
+  example: []
+  syntax:
+    content: 'public enum BiosAtaTranslation : byte'
+    content.vb: Public Enum BiosAtaTranslation As Byte
+- uid: libqmp.Enums.BiosAtaTranslation.Auto
+  commentId: F:libqmp.Enums.BiosAtaTranslation.Auto
+  id: Auto
+  parent: libqmp.Enums.BiosAtaTranslation
+  langs:
+  - csharp
+  - vb
+  name: Auto
+  nameWithType: BiosAtaTranslation.Auto
+  fullName: libqmp.Enums.BiosAtaTranslation.Auto
+  type: Field
+  source:
+    id: Auto
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 24
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    If cylinder/heads/sizes are passed, choose between none and LBA depending 
+
+    on the size of the disk. If they are not passed, choose none if QEMU can 
+
+    guess that the disk had 16 or fewer heads, large if QEMU can guess that 
+
+    the disk had 131072 or fewer tracks across all heads 
+
+    (i.e. cylinders * heads less than 131072), otherwise LBA.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("auto")]
+
+      Auto = 0
+    return:
+      type: libqmp.Enums.BiosAtaTranslation
+    content.vb: >-
+      <JsonPropertyName("auto")>
+
+      Auto = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: auto
+- uid: libqmp.Enums.BiosAtaTranslation.None
+  commentId: F:libqmp.Enums.BiosAtaTranslation.None
+  id: None
+  parent: libqmp.Enums.BiosAtaTranslation
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: BiosAtaTranslation.None
+  fullName: libqmp.Enums.BiosAtaTranslation.None
+  type: Field
+  source:
+    id: None
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 30
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: The physical disk geometry is equal to the logical geometry.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("none")]
+
+      None = 1
+    return:
+      type: libqmp.Enums.BiosAtaTranslation
+    content.vb: >-
+      <JsonPropertyName("none")>
+
+      None = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: none
+- uid: libqmp.Enums.BiosAtaTranslation.Lba
+  commentId: F:libqmp.Enums.BiosAtaTranslation.Lba
+  id: Lba
+  parent: libqmp.Enums.BiosAtaTranslation
+  langs:
+  - csharp
+  - vb
+  name: Lba
+  nameWithType: BiosAtaTranslation.Lba
+  fullName: libqmp.Enums.BiosAtaTranslation.Lba
+  type: Field
+  source:
+    id: Lba
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 39
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    Assume 63 sectors per track and one of 16, 32, 64, 128 or 255 
+
+    heads (if fewer than 255 are enough to cover the whole disk 
+
+    with 1024 cylinders/head). The number of cylinders/head is 
+
+    then computed based on the number of sectors and heads.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("lba")]
+
+      Lba = 2
+    return:
+      type: libqmp.Enums.BiosAtaTranslation
+    content.vb: >-
+      <JsonPropertyName("lba")>
+
+      Lba = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: lba
+- uid: libqmp.Enums.BiosAtaTranslation.Large
+  commentId: F:libqmp.Enums.BiosAtaTranslation.Large
+  id: Large
+  parent: libqmp.Enums.BiosAtaTranslation
+  langs:
+  - csharp
+  - vb
+  name: Large
+  nameWithType: BiosAtaTranslation.Large
+  fullName: libqmp.Enums.BiosAtaTranslation.Large
+  type: Field
+  source:
+    id: Large
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 46
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    The number of cylinders per head is scaled down to 1024 by correspondingly 
+
+    scaling up the number of heads.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("large")]
+
+      Large = 3
+    return:
+      type: libqmp.Enums.BiosAtaTranslation
+    content.vb: >-
+      <JsonPropertyName("large")>
+
+      Large = 3
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: large
+- uid: libqmp.Enums.BiosAtaTranslation.Rechs
+  commentId: F:libqmp.Enums.BiosAtaTranslation.Rechs
+  id: Rechs
+  parent: libqmp.Enums.BiosAtaTranslation
+  langs:
+  - csharp
+  - vb
+  name: Rechs
+  nameWithType: BiosAtaTranslation.Rechs
+  fullName: libqmp.Enums.BiosAtaTranslation.Rechs
+  type: Field
+  source:
+    id: Rechs
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\BiosAtaTranslation.cs
+    startLine: 53
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    Same as large, but first convert a 16-head geometry to 15-head, by proportionally 
+
+    scaling up the number of cylinders/head.
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("rechs")]
+
+      Rechs = 4
+    return:
+      type: libqmp.Enums.BiosAtaTranslation
+    content.vb: >-
+      <JsonPropertyName("rechs")>
+
+      Rechs = 4
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: rechs
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.BiosAtaTranslation
+  commentId: T:libqmp.Enums.BiosAtaTranslation
+  parent: libqmp.Enums
+  href: libqmp.Enums.BiosAtaTranslation.html
+  name: BiosAtaTranslation
+  nameWithType: BiosAtaTranslation
+  fullName: libqmp.Enums.BiosAtaTranslation

@@ -1,0 +1,242 @@
+{
+  "source_base_path": "C:/Users/Nekkochan/source/repos/libqmp/libqmp",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.ACPISlotType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.ACPISlotType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.ACPISlotType",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.ACPISlotType.yml\" sourcestartlinenumber=\"1\">Enum: ACPISlotType</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.AFXDPMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.AFXDPMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.AFXDPMode",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.AFXDPMode.yml\" sourcestartlinenumber=\"1\">AFXDPMode (Since: 8.2)\nAvailability: CONFIG_AF_XDP\nAttach mode for a default XDP program</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.Accelerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.Accelerator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.Accelerator",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.Accelerator.yml\" sourcestartlinenumber=\"1\">Accelerator (Since: 10.2.0)\nInformation about support for MSHV acceleration</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.ActionCompletionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.ActionCompletionMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.ActionCompletionMode",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.ActionCompletionMode.yml\" sourcestartlinenumber=\"1\">ActionCompletionMode (Since: 2.5)\nAn enumeration of transactional completion modes.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.AudioFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.AudioFormat.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.AudioFormat",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.AudioFormat.yml\" sourcestartlinenumber=\"1\">AudioFormat (Since: 4.0)\nAn enumeration of possible audio formats.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.AudiodevDriver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.AudiodevDriver.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.AudiodevDriver",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.AudiodevDriver.yml\" sourcestartlinenumber=\"1\">AudiodevDriver (Since: 4.0)\nAn enumeration of possible audio backend drivers.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.BiosAtaTranslation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.BiosAtaTranslation.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.BiosAtaTranslation",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.BiosAtaTranslation.yml\" sourcestartlinenumber=\"1\">BiosAtaTranslation (Since: 2.0)\nPolicy that BIOS should use to interpret cylinder/head/sector addresses.\nNote that Bochs BIOS and SeaBIOS will not actually translate logical CHS\nto physical; instead, they will use logical block addressing.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.BitmapSyncMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.BitmapSyncMode.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.BitmapSyncMode",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.BitmapSyncMode.yml\" sourcestartlinenumber=\"1\">BitmapSyncMode (Since: 4.2)\nAn enumeration of possible behaviors for the synchronization\nof a bitmap when used for data copy operations.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.BlkdebugIOType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.BlkdebugIOType.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.BlkdebugIOType",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.BlkdebugIOType.yml\" sourcestartlinenumber=\"1\">BlkdebugIOType (Since: 4.1)\nKinds of I/O that blkdebug can inject errors in.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.BlockDeviceIoStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.BlockDeviceIoStatus.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums.BlockDeviceIoStatus",
+      "Summary": "<p sourcefile=\"api/libqmp.Enums.BlockDeviceIoStatus.yml\" sourcestartlinenumber=\"1\">BlockDeviceIoStatus (Since: 1.0)\nAn enumeration of block device I/O status.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/libqmp.Enums.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/libqmp.Enums.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "libqmp.Enums",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

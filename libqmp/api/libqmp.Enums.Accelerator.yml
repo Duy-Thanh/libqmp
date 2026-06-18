@@ -1,0 +1,363 @@
+### YamlMime:ManagedReference
+items:
+- uid: libqmp.Enums.Accelerator
+  commentId: T:libqmp.Enums.Accelerator
+  id: Accelerator
+  parent: libqmp.Enums
+  children:
+  - libqmp.Enums.Accelerator.Hvf
+  - libqmp.Enums.Accelerator.Kvm
+  - libqmp.Enums.Accelerator.Mshv
+  - libqmp.Enums.Accelerator.Nvmm
+  - libqmp.Enums.Accelerator.Qtest
+  - libqmp.Enums.Accelerator.Tcg
+  - libqmp.Enums.Accelerator.Whpx
+  - libqmp.Enums.Accelerator.Xen
+  langs:
+  - csharp
+  - vb
+  name: Accelerator
+  nameWithType: Accelerator
+  fullName: libqmp.Enums.Accelerator
+  type: Enum
+  source:
+    id: Accelerator
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 13
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: >-
+    Accelerator (Since: 10.2.0)
+
+    Information about support for MSHV acceleration
+  example: []
+  syntax:
+    content: 'public enum Accelerator : byte'
+    content.vb: Public Enum Accelerator As Byte
+- uid: libqmp.Enums.Accelerator.Hvf
+  commentId: F:libqmp.Enums.Accelerator.Hvf
+  id: Hvf
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Hvf
+  nameWithType: Accelerator.Hvf
+  fullName: libqmp.Enums.Accelerator.Hvf
+  type: Field
+  source:
+    id: Hvf
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 18
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Apple Hypervisor.framework
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("hvf")]
+
+      Hvf = 0
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("hvf")>
+
+      Hvf = 0
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: hvf
+- uid: libqmp.Enums.Accelerator.Kvm
+  commentId: F:libqmp.Enums.Accelerator.Kvm
+  id: Kvm
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Kvm
+  nameWithType: Accelerator.Kvm
+  fullName: libqmp.Enums.Accelerator.Kvm
+  type: Field
+  source:
+    id: Kvm
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 24
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: KVM
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("kvm")]
+
+      Kvm = 1
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("kvm")>
+
+      Kvm = 1
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: kvm
+- uid: libqmp.Enums.Accelerator.Mshv
+  commentId: F:libqmp.Enums.Accelerator.Mshv
+  id: Mshv
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Mshv
+  nameWithType: Accelerator.Mshv
+  fullName: libqmp.Enums.Accelerator.Mshv
+  type: Field
+  source:
+    id: Mshv
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 30
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Hyper-V
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("mshv")]
+
+      Mshv = 2
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("mshv")>
+
+      Mshv = 2
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: mshv
+- uid: libqmp.Enums.Accelerator.Nvmm
+  commentId: F:libqmp.Enums.Accelerator.Nvmm
+  id: Nvmm
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Nvmm
+  nameWithType: Accelerator.Nvmm
+  fullName: libqmp.Enums.Accelerator.Nvmm
+  type: Field
+  source:
+    id: Nvmm
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 36
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: NetBSD NVMM
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("nvmm")]
+
+      Nvmm = 3
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("nvmm")>
+
+      Nvmm = 3
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: nvmm
+- uid: libqmp.Enums.Accelerator.Qtest
+  commentId: F:libqmp.Enums.Accelerator.Qtest
+  id: Qtest
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Qtest
+  nameWithType: Accelerator.Qtest
+  fullName: libqmp.Enums.Accelerator.Qtest
+  type: Field
+  source:
+    id: Qtest
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 42
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: QTest (dummy accelerator)
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("qtest")]
+
+      Qtest = 4
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("qtest")>
+
+      Qtest = 4
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: qtest
+- uid: libqmp.Enums.Accelerator.Tcg
+  commentId: F:libqmp.Enums.Accelerator.Tcg
+  id: Tcg
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Tcg
+  nameWithType: Accelerator.Tcg
+  fullName: libqmp.Enums.Accelerator.Tcg
+  type: Field
+  source:
+    id: Tcg
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 48
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: TCG (dynamic translation)
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("tcg")]
+
+      Tcg = 5
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("tcg")>
+
+      Tcg = 5
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: tcg
+- uid: libqmp.Enums.Accelerator.Whpx
+  commentId: F:libqmp.Enums.Accelerator.Whpx
+  id: Whpx
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Whpx
+  nameWithType: Accelerator.Whpx
+  fullName: libqmp.Enums.Accelerator.Whpx
+  type: Field
+  source:
+    id: Whpx
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 54
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Windows Hypervisor Platform
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("whpx")]
+
+      Whpx = 6
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("whpx")>
+
+      Whpx = 6
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: whpx
+- uid: libqmp.Enums.Accelerator.Xen
+  commentId: F:libqmp.Enums.Accelerator.Xen
+  id: Xen
+  parent: libqmp.Enums.Accelerator
+  langs:
+  - csharp
+  - vb
+  name: Xen
+  nameWithType: Accelerator.Xen
+  fullName: libqmp.Enums.Accelerator.Xen
+  type: Field
+  source:
+    id: Xen
+    path: C:\Users\Nekkochan\source\repos\libqmp\libqmp\Enums\Accelerator.cs
+    startLine: 60
+  assemblies:
+  - libqmp
+  namespace: libqmp.Enums
+  summary: Xen
+  example: []
+  syntax:
+    content: >-
+      [JsonPropertyName("xen")]
+
+      Xen = 7
+    return:
+      type: libqmp.Enums.Accelerator
+    content.vb: >-
+      <JsonPropertyName("xen")>
+
+      Xen = 7
+  attributes:
+  - type: System.Text.Json.Serialization.JsonPropertyNameAttribute
+    ctor: System.Text.Json.Serialization.JsonPropertyNameAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: xen
+references:
+- uid: libqmp.Enums
+  commentId: N:libqmp.Enums
+  href: libqmp.html
+  name: libqmp.Enums
+  nameWithType: libqmp.Enums
+  fullName: libqmp.Enums
+  spec.csharp:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+  spec.vb:
+  - uid: libqmp
+    name: libqmp
+    href: libqmp.html
+  - name: .
+  - uid: libqmp.Enums
+    name: Enums
+    href: libqmp.Enums.html
+- uid: libqmp.Enums.Accelerator
+  commentId: T:libqmp.Enums.Accelerator
+  parent: libqmp.Enums
+  href: libqmp.Enums.Accelerator.html
+  name: Accelerator
+  nameWithType: Accelerator
+  fullName: libqmp.Enums.Accelerator
